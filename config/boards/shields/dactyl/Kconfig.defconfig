@@ -8,6 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
+if SHIELD_DACTYL_CC_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Dactyl Right"
+
+endif
+
 if SHIELD_DACTYL_LEFT || SHIELD_DACTYL_RIGHT
 
 config ZMK_SPLIT
