@@ -19,6 +19,7 @@
     &kp LALT   &mo 1    &kp LCTRL &kp DEL  &kp LGUI  &kp BSPC             &kp BSPC  &kp RGUI  &kp IFS   &kp RCTRL &mo 1    &kp RALT
                                            &kp SPACE &kp RETURF           &kp SPACE &kp RETURF
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DF &inc_dec_kp PG_UP PG_DF>;
         };
         lower_layer {
             bindings = <
@@ -29,7 +30,6 @@
     &kp LALT   &trans   &kp LCTRL &kp DEL  &kp LGUI  &kp BSPC             &kp BSPC  &kp RGUI  &kp IFS   &kp RCTRL &trans   &kp RALT
                                            &kp SPACE &kp RETURF           &kp SPACE &kp RETURF
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DF &inc_dec_kp PG_UP PG_DF>;
         };
 
